@@ -65,7 +65,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginStart="16dp"
         android:text="O'tkazib yuborish"
-        android:textColor="#3a3a3a"
+        android:textColor="@android:color/transparent"
         tools:ignore="HardcodedText" />
 
     <TextView
@@ -76,7 +76,7 @@
         app:layout_constraintBottom_toBottomOf="@id/view"
         app:layout_constraintRight_toLeftOf="@id/image_arrow_right"
         android:layout_marginEnd="16dp"
-        android:textColor="#3a3a3a"
+        android:textColor="@android:color/transparent"
         android:text="Keyingisi"
         android:textStyle="normal"
         tools:ignore="HardcodedText" />
@@ -88,7 +88,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@id/view"
         app:layout_constraintBottom_toBottomOf="@id/view"
-        android:layout_marginEnd="16dp"
-        android:src="@drawable/arrow_right"/>
+        android:layout_marginEnd="16dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
